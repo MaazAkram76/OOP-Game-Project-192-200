@@ -1,0 +1,26 @@
+Steps to install Raylib in Visual Studio in 2022
+
+git link : https://github.com/microsoft/vcpkg
+
+Download the zip file
+Unzip it
+
+rename the unzipped folder as vcpkg (by removing the '-master')
+
+now open the folder and open it in git bash;
+
+now run the following commands in git bash terminal
+
+./bootstrap-vcpkg.bat
+
+then
+
+./vcpkg integrate install
+
+
+then
+
+./vcpkg install raylib:x64-windows
+
+
+bss itna hi hai
