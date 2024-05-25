@@ -1,5 +1,6 @@
 #include<raylib.h>
 #include"Game.h" //If I try to write '#include<Game.h>', then it gives error
+#include"Laser.h"
 int main()
 {
 	int windowWidth = 800;
@@ -24,7 +25,7 @@ int main()
 
 	
 	Game game;	//Declared outside the game loop
-
+	Laser laser ({100, 100}, 5); // Same as 'Laser laser = Laser({100, 100}, 5);'
 
 
 
@@ -34,7 +35,7 @@ int main()
 
 	while (WindowShouldClose() == false) { //this while loop ensures that game window will run unless we do not close the window
 
-
+		laser.Update();
 		game.HandleInput();
 
 		BeginDrawing();//setting up the drawing canvas that we will use for drawing
@@ -45,7 +46,7 @@ int main()
 										//, to avoid the overlapping of the previouis objects with the next frame objects
 		  
 		game.Draw();//Calling the Draw Function after clearing the background;
-
+		laser.Draw();
 		EndDrawing();//closing the canvas that we will use for drawing
 	}
 
