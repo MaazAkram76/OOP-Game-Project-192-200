@@ -1,5 +1,5 @@
 #include<raylib.h>
-
+#include"Spaceship.h" //If I try to write '#include<Spaceship.h>', then it gives error
 int main()
 {
 	int windowWidth = 800;
@@ -16,6 +16,22 @@ int main()
 
 
 
+
+
+
+
+
+
+	
+	Spaceship spaceship; //Declared outside the game loop
+
+
+
+
+
+
+
+
 	while (WindowShouldClose() == false) { //this while loop ensures that game window will run unless we do not close the window
 
 		BeginDrawing();//setting up the drawing canvas that we will use for drawing
@@ -25,7 +41,7 @@ int main()
 										//of the previous (first frame) are removed for the upcoming second frame
 										//, to avoid the overlapping of the previouis objects with the next frame objects
 		  
-
+		spaceship.Draw(); //Calling the Draw Function after clearing the background;
 
 		EndDrawing();//closing the canvas that we will use for drawing
 	}

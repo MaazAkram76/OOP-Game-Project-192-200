@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|solutionrelative:OOPGameProject\\Spaceship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|solutionrelative:OOPGameProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89188687-59BD-45E4-A1AD-60F568BD80D4}|OOPGameProject\\OOPGameProject.vcxproj|solutionrelative:OOPGameProject\\Spaceship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MISBAH\\Downloads\\dashboardForm\\dashboardForm\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -26,19 +34,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Spaceship.cpp",
+              "DocumentMoniker": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.cpp",
+              "RelativeDocumentMoniker": "OOPGameProject\\Spaceship.cpp",
+              "ToolTip": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.cpp",
+              "RelativeToolTip": "OOPGameProject\\Spaceship.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T05:44:27.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Spaceship.h",
+              "DocumentMoniker": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.h",
+              "RelativeDocumentMoniker": "OOPGameProject\\Spaceship.h",
+              "ToolTip": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\Spaceship.h",
+              "RelativeToolTip": "OOPGameProject\\Spaceship.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-22T05:27:32.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\main.cpp",
               "RelativeDocumentMoniker": "OOPGameProject\\main.cpp",
               "ToolTip": "C:\\Users\\MISBAH\\OneDrive\\Desktop\\oOPGameProject\\OOPGameProject\\OOPGameProject\\main.cpp",
               "RelativeToolTip": "OOPGameProject\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwCsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-18T10:32:54.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MISBAH\\Downloads\\dashboardForm\\dashboardForm\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\dashboardForm\\dashboardForm\\Program.cs",
@@ -47,6 +80,16 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T08:05:39.97Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 86,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
