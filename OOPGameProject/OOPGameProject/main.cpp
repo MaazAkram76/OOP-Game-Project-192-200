@@ -1,5 +1,5 @@
 #include<raylib.h>
-#include"Spaceship.h" //If I try to write '#include<Spaceship.h>', then it gives error
+#include"Game.h" //If I try to write '#include<Game.h>', then it gives error
 int main()
 {
 	int windowWidth = 800;
@@ -23,7 +23,7 @@ int main()
 
 
 	
-	Spaceship spaceship; //Declared outside the game loop
+	Game game;	//Declared outside the game loop
 
 
 
@@ -41,7 +41,7 @@ int main()
 										//of the previous (first frame) are removed for the upcoming second frame
 										//, to avoid the overlapping of the previouis objects with the next frame objects
 		  
-		spaceship.Draw(); //Calling the Draw Function after clearing the background;
+		game.Draw();//Calling the Draw Function after clearing the background;
 
 		EndDrawing();//closing the canvas that we will use for drawing
 	}
