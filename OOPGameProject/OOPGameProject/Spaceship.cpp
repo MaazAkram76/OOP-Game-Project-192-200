@@ -30,3 +30,17 @@ void Spaceship::MoveRight() {
 		position.x = GetScreenWidth() - image.width;		//This moves or restricts the spaceship by moveing it to (GetScreenWidth() - image.width,y) coordinate...To know more about "GetScreenWidth() - image.width" Kindly chack notes 1.0.
 	}
 }
+void Spaceship::MoveUp() {
+	position.y = position.y - 5;
+	if (position.y < 0) 
+	{
+		position.y = 0;
+	}
+}
+void Spaceship::MoveDown() {
+	position.y = position.y + 5;
+	if (position.y > GetScreenHeight() - image.height)
+	{
+		position.y = GetScreenHeight() - image.height;
+	}
+}

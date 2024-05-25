@@ -11,6 +11,8 @@ public:
     void Draw(); 
     void MoveLeft();
     void MoveRight();
+    void MoveUp();
+    void MoveDown();
     void FireLaser();
 private:
     Texture2D image; //image

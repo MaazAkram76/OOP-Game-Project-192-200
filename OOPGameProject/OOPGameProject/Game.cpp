@@ -24,4 +24,12 @@ void Game::HandleInput() {
 	{
 		spaceship.MoveRight();	//Moves the 'Spaceship' class object, 'spaceship', to the Left.
 	}
+	else if (IsKeyDown(KEY_UP))
+	{
+		spaceship.MoveUp();
+	}
+	else if (IsKeyDown(KEY_DOWN))
+	{
+		spaceship.MoveDown();
+	}
 }
