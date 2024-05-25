@@ -34,6 +34,9 @@ int main()
 
 	while (WindowShouldClose() == false) { //this while loop ensures that game window will run unless we do not close the window
 
+
+		game.HandleInput();
+
 		BeginDrawing();//setting up the drawing canvas that we will use for drawing
 
 		ClearBackground(backgroundColor);//Question arises that why the function is named 'ClearBackground'

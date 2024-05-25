@@ -15,3 +15,9 @@ Spaceship::~Spaceship() {
 void Spaceship::Draw() { //for drawwing the Spaxceship
 	DrawTextureV(image, position, WHITE);
 }
+void Spaceship::MoveLeft() {
+	position.x = position.x - 5;
+}
+void Spaceship::MoveRight() {
+	position.x = position.x + 5;
+}
