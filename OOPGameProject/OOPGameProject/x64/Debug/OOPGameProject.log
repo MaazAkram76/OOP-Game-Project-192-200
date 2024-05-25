@@ -1,4 +1,6 @@
-﻿  main.cpp
+﻿  Laser.cpp
+C:\Users\MISBAH\OneDrive\Desktop\oOPGameProject\OOPGameProject\OOPGameProject\Laser.cpp(21,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\MISBAH\OneDrive\Desktop\oOPGameProject\OOPGameProject\OOPGameProject\Laser.cpp(21,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   OOPGameProject.vcxproj -> C:\Users\MISBAH\OneDrive\Desktop\oOPGameProject\OOPGameProject\x64\Debug\OOPGameProject.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

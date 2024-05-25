@@ -1,5 +1,5 @@
 #include "Laser.h"
-
+#include<iostream>
 Laser::Laser(Vector2 position, int speed)
 {
 	this->speed = speed;
@@ -16,14 +16,21 @@ Laser::Laser(Vector2 p, int s)
 */
 }
 void Laser::Draw() {
-
-	DrawRectangle(position.x, position.y, 4, 15, {123, 234, 213, 231});
-	/* 
-	Draw Rectangle is Raylib function that Creates a rectangle with the parameters as;
-	x-coordinate, y-coordinate, width, height, and color in rgba format
-	*/
+	if (active)
+	{
+		DrawRectangle(position.x, position.y, 4, 15, { 123, 234, 213, 231 });
+		/*
+		Draw Rectangle is Raylib function that Creates a rectangle with the parameters as;
+		x-coordinate, y-coordinate, width, height, and color in rgba format
+		*/
+	}
 }
 
 void Laser::Update() {
 	position.y = position.y + speed;
+	if (position.y > GetScreenHeight() || position.y < 0) //For both (spaceship and enemy lasers) //that's why it is being checked if the laser has passed the lowar and upper part of screen window
+	{
+		active = 0; //If laser moves outside the window, then it will be considered as inactive
+		std::cout << "Laser is inactive now";
+	}
 }
