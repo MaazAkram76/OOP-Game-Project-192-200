@@ -1,13 +1,14 @@
 #pragma once
 //An implementation file contains the actual code, i.e., the definitions of the functions declared in the header file.
 //The functions written in header files Are defined in the imlementation file (.cpp) file..
-#include<raylib.h>
+
+#include<raylib.h> //This contains the 'Texture2D' and 'Vector2D'
 class Spaceship {
 public:
     Spaceship();
     ~Spaceship();
 
-    void Draw();
+    void Draw(); 
     void MoveLeft();
     void MoveRight();
     void FireLaser();
