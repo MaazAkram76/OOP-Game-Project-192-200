@@ -25,7 +25,7 @@ void Spaceship::MoveLeft() {
 }
 void Spaceship::MoveRight() {
 	position.x = position.x + 5; //On Pressing the right key one time the sapcxeship image will move 5 pixels to the increasing side of x i.e right side in computer-coordinate systems
-	if (position.x > GetScreenWidth())	//To check whether the spaceship in our game is exceding the screen width (from right side)
+	if (position.x > GetScreenWidth() - image.width)	//To check whether the spaceship in our game is exceding the 'screen width - image.width' (from right side)
 	{
 		position.x = GetScreenWidth() - image.width;		//This moves or restricts the spaceship by moveing it to (GetScreenWidth() - image.width,y) coordinate...To know more about "GetScreenWidth() - image.width" Kindly chack notes 1.0.
 	}
