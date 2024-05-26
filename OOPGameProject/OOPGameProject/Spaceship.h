@@ -3,6 +3,9 @@
 //The functions written in header files Are defined in the imlementation file (.cpp) file..
 
 #include<raylib.h> //This contains the 'Texture2D' and 'Vector2D'
+#include"laser.h"
+#include<vector>
+using namespace std;
 class Spaceship {
 public:
     Spaceship();
@@ -14,6 +17,9 @@ public:
     void MoveUp();
     void MoveDown();
     void FireLaser();
+
+    vector<Laser> lasers; //Vector of 'Laser' class data-type, the name of vector is 'lasers'
+
 private:
     Texture2D image; //image
     Vector2 position; //In raylib Vector2 is a datatype which represents 2D point with x and y components

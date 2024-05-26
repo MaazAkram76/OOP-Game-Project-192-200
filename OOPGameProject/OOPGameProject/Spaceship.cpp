@@ -10,7 +10,7 @@ Spaceship::Spaceship()
 }
 Spaceship::~Spaceship() {
 	UnloadTexture(image); //Unloading image to free up space after the program closes
-							//We are unloading the image to ensure that if we change the picture if 'spaceship' int our game then the new image does not overlaps with the new picture we loaded for the spaceship.
+	//We are unloading the image to ensure that if we change the picture if 'spaceship' int our game then the new image does not overlaps with the new picture we loaded for the spaceship.
 }
 
 void Spaceship::Draw() { //for drawwing the Spaxceship
@@ -32,7 +32,7 @@ void Spaceship::MoveRight() {
 }
 void Spaceship::MoveUp() {
 	position.y = position.y - 5;
-	if (position.y < 0) 
+	if (position.y < 0)
 	{
 		position.y = 0;
 	}
@@ -43,4 +43,11 @@ void Spaceship::MoveDown() {
 	{
 		position.y = GetScreenHeight() - image.height;
 	}
+}
+
+void Spaceship::FireLaser()
+{
+	lasers.push_back(Laser({ position.x + (image.width / 2) - 2, position.y }, -5));
+	//Note that the position.x and position.y are the coordinates of the spaceship
+//The vector lasers encapsulates all Laser objects. You typically interact with these objects through the vector (e.g., iterating over the vector, accessing elements by index) rather than by individual names.
 }

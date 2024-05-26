@@ -4,9 +4,10 @@ Laser::Laser(Vector2 position, int speed)
 {
 	this->speed = speed;
 	this->position = position;
+	active = true;
 	//The "this" pointer is used to distinguish between the parameter and the class member, which have the same name.
 	//The second speed, position is the Constructor argument, the speed in 'this->speed' is the private member of the class Laser
-/* 
+/*
 	The above two lines of code are same as
 Laser::Laser(Vector2 p, int s)
 {
@@ -31,6 +32,5 @@ void Laser::Update() {
 	if (position.y > GetScreenHeight() || position.y < 0) //For both (spaceship and enemy lasers) //that's why it is being checked if the laser has passed the lowar and upper part of screen window
 	{
 		active = 0; //If laser moves outside the window, then it will be considered as inactive
-		std::cout << "Laser is inactive now";
 	}
 }
