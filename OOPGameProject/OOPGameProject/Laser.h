@@ -5,6 +5,7 @@ public:
 	Laser(Vector2 position, int speed);
 	void Update();
 	void Draw();
+	bool IsActive();
 private:
 	Vector2 position;
 	int speed;		//speed is the speed of the laser in y-axis

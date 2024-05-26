@@ -45,8 +45,22 @@ void Game::HandleInput() {
 	{
 		spaceship.MoveDown();
 	}
-	else if (IsKeyDown(KEY_SPACE)) //Difference between IsKeyPressed and IsKeyDown is that Pressed does only single move at a tinme, BUT IsKeyDown does as long as key is pressed. so it's for continous and 'IsKeyPressed' if for discrete 
+	else if (IsKeyPressed(KEY_SPACE)) //Difference between IsKeyPressed and IsKeyDown is that Pressed does only single move at a tinme, BUT IsKeyDown does as long as key is pressed. so it's for continous and 'IsKeyPressed' if for discrete 
 	{
 		spaceship.FireLaser();
+	}
+}
+
+void Game::DeleteInactiveLasers() //Topic Related to Data structures
+{
+	for (auto it = spaceship.lasers.begin(); it != spaceship.lasers.end();)
+	{
+		if (!it -> IsActive())
+		{
+			it = spaceship.lasers.erase(it);
+		}
+		else {
+			++it;
+		}
 	}
 }

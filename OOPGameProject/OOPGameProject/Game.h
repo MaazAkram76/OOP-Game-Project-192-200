@@ -9,7 +9,9 @@ public:
 	void Update();	//Update the game objects
 	void HandleInput();
 
+
 private:
 	Spaceship spaceship;	//To use the 'Spaceship' class objects in Game implementation file we have created the object here.
+	void DeleteInactiveLasers();
 };
 

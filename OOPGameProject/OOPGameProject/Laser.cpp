@@ -27,6 +27,11 @@ void Laser::Draw() {
 	}
 }
 
+bool Laser::IsActive()
+{
+	return active;
+}
+
 void Laser::Update() {
 	position.y = position.y + speed;
 	if (position.y > GetScreenHeight() || position.y < 0) //For both (spaceship and enemy lasers) //that's why it is being checked if the laser has passed the lowar and upper part of screen window
